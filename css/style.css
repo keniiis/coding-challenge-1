@@ -44,13 +44,14 @@ body{
 }
 
 .btn{
-    background: #000;
+    background: blue;
     color: #fff;
     padding: 1em 4em;
     border-radius: 30px;
     font-size: 1em;
     transition: .2s ease all;
     cursor: pointer;
+    border: none;
 }
 
 .folown{
@@ -80,6 +81,11 @@ body{
 
 .card__biography{
     width: 85%;
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
 }
 
 .text{
